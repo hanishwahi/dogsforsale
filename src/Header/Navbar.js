@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
+ const scrollToHome=()=>{
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+ }
+
     return (
         <>
             <div className="container-fluid bg-white sticky-top  border-bottom">
@@ -18,7 +22,7 @@ function Navbar() {
                                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                                     <ul className="navbar-nav mb-2 mb-lg-0 gap-lg-2 fw-bold">
                                         <li className="nav-item desktop-nav">
-                                            <Link className="nav-link text-uppercase " to="/">Home</Link>
+                                            <Link onClick={scrollToHome} className="nav-link text-uppercase " to="/">Home</Link>
                                         </li>
                                         <li className="nav-item desktop-nav">
                                             <Link className="nav-link text-uppercase" to="/">About Us</Link>
@@ -62,7 +66,7 @@ function Navbar() {
 
                                     <ul className="navbar-nav mb-2 mb-lg-0 gap-lg-2 fw-bold" style={{ color: "#052963" }}>
                                         <li className="nav-item nav-canwa">
-                                            <Link className="nav-link text-dark text-uppercase" aria-current="page" to="/">Home</Link>
+                                            <Link onClick={scrollToHome} className="nav-link text-dark text-uppercase" aria-current="page" to="/">Home</Link>
                                         </li>
                                         <li className="nav-item nav-canwa">
                                             <Link className="nav-link text-dark text-uppercase" to="/">About Us</Link>

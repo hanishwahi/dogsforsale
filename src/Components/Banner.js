@@ -10,7 +10,7 @@ function Banner() {
                     <img className='img-fluid px-0' src={Banner1} alt='' />
                 </div>
                 <div className='call-Now-Button'>
-                    <Link className='btn shadow-none' to="tel:+1 (877) 462-2330 ">Call Now</Link>
+                    <Link className='btn shadow-none' to="tel:+918772244075">Call Now</Link>
                 </div>
             </div>
         </>
