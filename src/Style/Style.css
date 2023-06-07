@@ -112,6 +112,10 @@ margin: 0px;
     font-size: 35px;
     color: #fff;
 }
+
+.card-text{
+    font-weight: 700;
+}
  
 
 /* banner */

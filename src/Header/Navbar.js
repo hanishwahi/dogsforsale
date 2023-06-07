@@ -42,8 +42,8 @@ function Navbar() {
                         </div>
 
                         <div className="col-lg-1 col-md-3 col-sm-2 col-2 text-end desk-nav-main">
-                            {/* <i class="fa-solid fa-magnifying-glass fw-bold search-icon"></i> */}
-                            <Link to="tel:+1 8772244075" className="fw-bold"><i class="fa-solid fa-phone" style={{color:"green", fontSize:"22px"
+                            {/* <i className="fa-solid fa-magnifying-glass fw-bold search-icon"></i> */}
+                            <Link to="tel:+1 8772244075" className="fw-bold"><i className="fa-solid fa-phone" style={{color:"green", fontSize:"22px"
                             }}></i></Link>
                             
                         </div>

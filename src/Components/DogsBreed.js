@@ -75,96 +75,96 @@ function DogsBreed() {
                      <div className='row  dogbreed-heading-003 pb-4'>
                             <h1 className='text-center'>Choose the Breed</h1>
                         </div>
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <img src={Labrador} class="card-img-top"
+                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                        <div className="col">
+                            <div className="card">
+                                <img src={Labrador} className="card-img-top"
                                     alt="Hollywood Sign on The Hill" />
-                                <div class="card-body">
-                                    <h5 class="card-title">LABRADOR</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">LABRADOR</h5>
+                                    <p className="card-text">
                                         $1500
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Germanshephard } class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Germanshephard } className="card-img-top"
                                     alt="Palm Springs Road" />
-                                <div class="card-body">
-                                    <h5 class="card-title">GERMAN SHEPHERD</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">GERMAN SHEPHERD</h5>
+                                    <p className="card-text">
                                         $1700
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Goldenretriever} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Goldenretriever} className="card-img-top"
                                     alt="Los Angeles Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">GOLDEN RETRIEVER</h5>
-                                    <p class="card-text">$1800</p>
+                                <div className="card-body">
+                                    <h5 className="card-title">GOLDEN RETRIEVER</h5>
+                                    <p className="card-text">$1800</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Pug} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Pug} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">PUG</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">PUG</h5>
+                                    <p className="card-text">
                                     $1800
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Rottweiler} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Rottweiler} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">ROTTWEILER</h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">ROTTWEILER</h5>
+                                    <p className="card-text">
                                     $1700
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Beagle} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Beagle} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">BEAGLE </h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">BEAGLE </h5>
+                                    <p className="card-text">
                                         $1950
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Boxer} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Boxer} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Boxer </h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Boxer </h5>
+                                    <p className="card-text">
                                         $2000
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <img src={Shihtzu} class="card-img-top"
+                        <div className="col">
+                            <div className="card">
+                                <img src={Shihtzu} className="card-img-top"
                                     alt="Skyscrapers" />
-                                <div class="card-body">
-                                    <h5 class="card-title">BEAGLE </h5>
-                                    <p class="card-text">
+                                <div className="card-body">
+                                    <h5 className="card-title">Shihtzu </h5>
+                                    <p className="card-text">
                                         $1650
                                     </p>
                                 </div>
