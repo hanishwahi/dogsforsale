@@ -1,0 +1,40 @@
+@media screen and (max-width:576px) {
+    .desk-nav-main{
+        display: none;
+    }
+    .canwa-Menubar{
+        display: block;
+    }
+
+    .call-now-002 h1 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:767px) {
+    .desk-nav-main {
+        display: none;
+    }
+    .canwa-Menubar{
+        display: block;
+    }
+    .call-now-002 h1 {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .desk-nav-main {
+        display: none;
+    }
+    .canwa-Menubar{
+        display: block;
+    }
+    .call-now-002 h1 {
+        font-size: 22px;
+    }
+    .health-check-002 h3 {
+        font-size: 17px;
+     }
+}
