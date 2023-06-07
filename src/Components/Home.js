@@ -4,6 +4,7 @@ import CallNow from './CallNow'
 import DogsBreed from './DogsBreed'
 import Banner from './Banner'
 import Record from './Record'
+import Footer from '../Footer/Footer'
  
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
      <DogsBreed/>
      <Banner/>
      <Record/>
+     <Footer/>
      </>
   )
 }

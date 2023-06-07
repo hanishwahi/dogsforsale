@@ -62,7 +62,7 @@ function Record() {
     return (
         <>
 
-            <div className='container-fluid'>
+            <div className='container-fluid py-5'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-4 text-center'>

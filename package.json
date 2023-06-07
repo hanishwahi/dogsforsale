@@ -1,5 +1,6 @@
 {
   "name": "dog",
+  "homepage": "https://wtdogseller.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
