@@ -51,7 +51,7 @@ function Navbar() {
                             </a>
 
 
-                            <div className=" bg-dark offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div className=" offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                 <div className="offcanvas-header  border-bottom">
                                     <div className="col-lg-3 col-md-7 col-sm-7 col-9 navbar-001 text-start">
                                         <Link to="/">Dog For Sale</Link>
@@ -62,19 +62,19 @@ function Navbar() {
 
                                     <ul className="navbar-nav mb-2 mb-lg-0 gap-lg-2 fw-bold" style={{ color: "#052963" }}>
                                         <li className="nav-item nav-canwa">
-                                            <Link className="nav-link text-dark text-uppercase" aria-current="page" to="/">Find a lawyer</Link>
+                                            <Link className="nav-link text-dark text-uppercase" aria-current="page" to="/">Home</Link>
                                         </li>
                                         <li className="nav-item nav-canwa">
-                                            <Link className="nav-link text-dark text-uppercase" to="/">Legal Advice</Link>
+                                            <Link className="nav-link text-dark text-uppercase" to="/">About Us</Link>
                                         </li>
                                         <li className="nav-item nav-canwa">
-                                            <Link className="nav-link text-dark text-uppercase" to="/">Legal Services</Link>
+                                            <Link className="nav-link text-dark text-uppercase" to="/">Buy Dogs</Link>
                                         </li>
                                         <li className="nav-item nav-canwa">
-                                            <Link className="nav-link text-dark text-uppercase" to="/">About</Link>
+                                            <Link className="nav-link text-dark text-uppercase" to="/">Photos</Link>
                                         </li>
                                         <li className="nav-item nav-canwa">
-                                            <Link className="nav-link text-dark text-uppercase" to="/">My Account</Link>
+                                            <Link className="nav-link text-dark text-uppercase" to="/">Contact</Link>
                                         </li>
                                     </ul>
                                 </div>

@@ -61,15 +61,15 @@ function Record() {
             <div className='container-fluid py-md-5'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-4 col-sm-4 text-center'>
+                        <div className='col-lg-4 col-sm-4 text-center mb-3'>
                             <div className="Counter-1">{counter1}+</div>
                             <div className='record-004'><h2>Dogs Delivered</h2></div>
                         </div>
-                        <div className='col-lg-4 col-sm-4 text-center'>
+                        <div className='col-lg-4 col-sm-4 text-center  mb-3'>
                           <div className="Counter-1">{counter2}%</div>
                             <div className='record-004'><h2>Positive feedback</h2></div>
                         </div>
-                        <div className='col-lg-4 col-sm-4 text-center'>
+                        <div className='col-lg-4 col-sm-4 text-center  mb-3'>
                         <div className="Counter-1">{counter3}</div>
                             <div className='record-004'><h2>Happy Families</h2></div>
                         </div>

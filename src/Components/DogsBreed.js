@@ -70,7 +70,7 @@ function DogsBreed() {
                     </div>
                 </div> */}
 
-            <div className='container-fluid py-5 my-5' style={{backgroundColor: '#cf18c5'}}>
+            <div className='container-fluid py-5 my-md-5 mt-3' style={{backgroundColor: '#cf18c5'}}>
                 <div className='container'>
                      <div className='row  dogbreed-heading-003 pb-4'>
                             <h1 className='text-center'>Choose the Breed</h1>

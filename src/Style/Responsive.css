@@ -21,6 +21,18 @@
     .dogbreed-heading-003 h1 {
         font-size: 30px;
     }
+    .health-check-002 i {
+        font-size: 22px;
+        padding: 18px;
+       
+    }
+    .health-check-002 h3 {
+        font-size: 17px;
+    }
+    .record-004 h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:767px) {
