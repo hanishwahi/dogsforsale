@@ -12,7 +12,7 @@ function Navbar() {
                 <div className="container-lg">
                     <div className="row align-items-center py-3">
                         <div className="col-lg-3 col-md-7 col-sm-7 col-9 navbar-001">
-                            <Link to="/">Dog For Sale</Link>
+                            <Link onClick={scrollToHome} to="/">Dog For Sale</Link>
                         </div>
                         <div className="col-lg-8 col-md-1 desk-nav-main">
                             <nav className="navbar navbar-expand-lg navbar-light">
@@ -34,7 +34,7 @@ function Navbar() {
                                             <Link className="nav-link text-uppercase" to="/">Photos</Link>
                                         </li>
                                         <li className="nav-item desktop-nav">
-                                            <Link className="nav-link text-uppercase" to="/">Contact</Link>
+                                            <Link to="tel:+1 8772244075" className="nav-link text-uppercase">Call Now</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -42,7 +42,10 @@ function Navbar() {
                         </div>
 
                         <div className="col-lg-1 col-md-3 col-sm-2 col-2 text-end desk-nav-main">
-                            <i class="fa-solid fa-magnifying-glass fw-bold search-icon"></i>
+                            {/* <i class="fa-solid fa-magnifying-glass fw-bold search-icon"></i> */}
+                            <Link to="tel:+1 8772244075" className="fw-bold"><i class="fa-solid fa-phone" style={{color:"green", fontSize:"22px"
+                            }}></i></Link>
+                            
                         </div>
 
 

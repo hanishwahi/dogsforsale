@@ -7,7 +7,7 @@ function Header() {
      <>
      <Navbar/>
      <div className='fixed-bottom m-3 m-sm-5'>
-       <Link to="tel:+918772244075" ><i class="fa-solid fa-phone call-icon"></i></Link>
+       <Link to="tel:+1 8772244075" ><i class="fa-solid fa-phone call-icon"></i></Link>
      </div>
      </>
   )
