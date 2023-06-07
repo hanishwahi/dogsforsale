@@ -9,6 +9,18 @@
     .call-now-002 h1 {
         font-size: 14px;
     }
+    .Counter-1 {
+        font-size: 40px;
+    }
+    .call-Now-Button a {
+        top: 41%;  
+        font-size: 12px;
+        padding: 6px 12px;
+        
+    }
+    .dogbreed-heading-003 h1 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:767px) {
@@ -20,6 +32,12 @@
     }
     .call-now-002 h1 {
         font-size: 18px;
+    }
+    .Counter-1 {
+        font-size: 34px;
+    }
+    .record-004 h2 {
+        font-size: 16px;
     }
 }
 

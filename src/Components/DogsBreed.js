@@ -5,6 +5,9 @@ import Goldenretriever from '../Images/Golden-Retriever-600x600.jpg';
 import Pug from '../Images/Pug.jpg';
 import Rottweiler from '../Images/Rottweiler-600x600.jpg';
 import Beagle from '../Images/Beagle-600x600.jpg';
+import Boxer from '../Images/boxer.jpg';
+import Shihtzu from '../Images/Shih Tzu.jpg';
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -70,9 +73,9 @@ function DogsBreed() {
             <div className='container-fluid py-5 my-5' style={{backgroundColor: '#cf18c5'}}>
                 <div className='container'>
                      <div className='row  dogbreed-heading-003 pb-4'>
-                            <h1 className='text-center'>Gallery</h1>
+                            <h1 className='text-center'>Choose the Breed</h1>
                         </div>
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
                         <div class="col">
                             <div class="card">
                                 <img src={Labrador} class="card-img-top"
@@ -139,6 +142,30 @@ function DogsBreed() {
                                     <h5 class="card-title">BEAGLE </h5>
                                     <p class="card-text">
                                         $1950
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src={Boxer} class="card-img-top"
+                                    alt="Skyscrapers" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Boxer </h5>
+                                    <p class="card-text">
+                                        $2000
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src={Shihtzu} class="card-img-top"
+                                    alt="Skyscrapers" />
+                                <div class="card-body">
+                                    <h5 class="card-title">BEAGLE </h5>
+                                    <p class="card-text">
+                                        $1650
                                     </p>
                                 </div>
                             </div>
