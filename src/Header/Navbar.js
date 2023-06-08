@@ -34,7 +34,7 @@ function Navbar() {
     }
      return (
         <>
-            <div className="container-fluid bg-white sticky-top  border-bottom">
+            <div className="container-fluid bg-white sticky-top  border-bottom py-2">
                 <div className="container-lg">
                     {menuBar && <>
                         <div className='newMenuMain'>
