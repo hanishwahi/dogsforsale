@@ -198,13 +198,13 @@ i.fa-solid.fa-bars.menu-bar {
 .top-to-btm {
   position: relative;
   cursor: pointer;
-
+display: none;
 }
 
 .icon-position {
   position: fixed;
   bottom: 40px;
-  right: 25px;
+  right: 20px;
   z-index: 20;
 }
 
@@ -212,8 +212,8 @@ i.fa-solid.fa-bars.menu-bar {
   background-color: #cf18c5;
   border: 2px solid #fff;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   color: #fff;
   cursor: pointer;
   animation: movebtn 3s ease-in-out infinite;
@@ -279,4 +279,18 @@ i.fa-solid.fa-bars.menu-bar {
   font-size: 16px;
   font-weight: 400;
   color: #000;
+}
+
+/* buy dogs */
+
+.buy-dogs-call-now a{
+  color: #cf18c5;
+  text-transform: uppercase;
+}
+
+.buy-dogs-call-now a:hover{
+background-color: #8d2688;
+border: 1px solid #fff;
+color: #fff;
+
 }

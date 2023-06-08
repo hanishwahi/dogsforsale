@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
- const scrollToHome=()=>{
-    window.scrollTo({ top: 0, behavior: 'smooth' });
- }
+    const scrollToHome = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 
     return (
         <>
@@ -12,7 +12,7 @@ function Navbar() {
                 <div className="container-lg">
                     <div className="row align-items-center py-3">
                         <div className="col-lg-3 col-md-7 col-sm-7 col-9 navbar-001">
-                            <Link onClick={scrollToHome} to="/">Dog For Sale</Link>
+                            <Link onClick={scrollToHome} to="/">WT Dog Seller</Link>
                         </div>
                         <div className="col-lg-8 col-md-1 desk-nav-main">
                             <nav className="navbar navbar-expand-lg navbar-light">
@@ -43,15 +43,14 @@ function Navbar() {
 
                         <div className="col-lg-1 col-md-3 col-sm-2 col-2 text-end desk-nav-main">
                             {/* <i className="fa-solid fa-magnifying-glass fw-bold search-icon"></i> */}
-                            <Link to="tel:+1 8772244075" className="fw-bold"><i className="fa-solid fa-phone" style={{color:"green", fontSize:"22px"
+                            <Link to="tel:+1 8772244075" className="fw-bold"><i className="fa-solid fa-phone" style={{
+                                color: "green", fontSize: "22px"
                             }}></i></Link>
-                            
+
                         </div>
 
 
                         {/* canwaoff */}
-
-
                         <div className='canwa-Menubar col-md-5 col-sm-5 col-3  text-end'>
                             <a className="btn shadow-none " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                                 <i style={{ color: "#052963" }} className="fa-solid fa-bars menu-bar"></i>
@@ -61,7 +60,7 @@ function Navbar() {
                             <div className=" offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                 <div className="offcanvas-header  border-bottom">
                                     <div className="col-lg-3 col-md-7 col-sm-7 col-9 navbar-001 text-start">
-                                        <Link to="/">Dog For Sale</Link>
+                                        <Link to="/">WT Dog Seller</Link>
                                     </div>
                                     <button type="button" className="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>

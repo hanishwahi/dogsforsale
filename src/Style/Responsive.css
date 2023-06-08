@@ -44,6 +44,9 @@
     .aboutUs-Content h1 {
         font-size: 26px;
     }
+    .top-to-btm{
+        display: block;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:767px) {
@@ -62,6 +65,9 @@
     .record-004 h2 {
         font-size: 16px;
     }
+    .top-to-btm{
+        display: block;
+    }
 }
 
 
@@ -78,4 +84,7 @@
     .health-check-002 h3 {
         font-size: 17px;
      }
+     .top-to-btm{
+        display: block;
+    }
 }

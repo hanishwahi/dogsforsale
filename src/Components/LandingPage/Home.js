@@ -4,8 +4,8 @@ import CallNow from './CallNow'
 import DogsBreed from './DogsBreed'
 import Banner from './Banner'
 import Record from './Record'
-  // import ScrollToTop from './ScrollToTop'
- 
+import ScrollToTop from '../ScrollToTop'
+  
 function Home() {
   return (
      <>
@@ -14,9 +14,7 @@ function Home() {
      <DogsBreed/>
      <Record/>
      <Banner/>
-     
-      
-     {/* <ScrollToTop/> */}
+     <ScrollToTop/> 
      </>
   )
 }
