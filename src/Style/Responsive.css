@@ -1,4 +1,10 @@
 @media screen and (max-width:576px) {
+    .new-menu{
+        display: block;
+        }
+    .navbar-001 a {
+        font-size: 18px;
+    }
     .desk-nav-main{
         display: none;
     }
@@ -50,6 +56,9 @@
 }
 
 @media screen and (min-width:577px) and (max-width:767px) {
+    .new-menu{
+        display: block;
+       }
     .desk-nav-main {
         display: none;
     }
@@ -72,6 +81,9 @@
 
 
 @media screen and (min-width:768px) and (max-width:991px) {
+    .new-menu{
+        display: block;
+       }
     .desk-nav-main {
         display: none;
     }

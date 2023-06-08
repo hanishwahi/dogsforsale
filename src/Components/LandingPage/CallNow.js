@@ -3,16 +3,7 @@ import React from 'react'
 function CallNow() {
     return (
         <>
-           {/* <div className='container-fluid'>
-           <div style={{ backgroundColor: '#cf18c5' }} className='row py-5 my-md-4'>
-                <div className='col-lg-6 col-7 text-end call-now-002 align-self-center'>
-                    <h1>Call To Get Your Dog</h1>
-                </div>
-                <div className='col-lg-6 col-5 text-start call-now-002 align-self-center'>
-                    <Link className='btn shadow-none'>Call Now</Link>
-                </div>
-            </div>
-           </div> */}
+          
 
             <div className='container-fluid py-md-5'>
                 <div className='container'>
