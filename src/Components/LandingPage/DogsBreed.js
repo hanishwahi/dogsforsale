@@ -1,12 +1,12 @@
 import React from 'react'
-import Labrador from '../Images/labrador-123.jpg';
-import Germanshephard from '../Images/GermanShephard.jpg';
-import Goldenretriever from '../Images/Golden-Retriever-600x600.jpg';
-import Pug from '../Images/Pug.jpg';
-import Rottweiler from '../Images/Rottweiler-600x600.jpg';
-import Beagle from '../Images/Beagle-600x600.jpg';
-import Boxer from '../Images/boxer.jpg';
-import Shihtzu from '../Images/Shih Tzu.jpg';
+import Labrador from '../../Images/labrador-123.jpg';
+import Germanshephard from '../../Images/GermanShephard.jpg';
+import Goldenretriever from '../../Images/Golden-Retriever-600x600.jpg';
+import Pug from '../../Images/Pug.jpg';
+import Rottweiler from '../../Images/Rottweiler-600x600.jpg';
+import Beagle from '../../Images/Beagle-600x600.jpg';
+import Boxer from '../../Images/boxer.jpg';
+import Shihtzu from '../../Images/Shih Tzu.jpg';
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';

@@ -1,6 +1,6 @@
 import React from 'react'
-import Labra from '../Images/labra.jpg'
-import Dog2 from '../Images/Dog2.jpg'
+import Labra from '../../Images/labra.jpg'
+import Dog2 from '../../Images/Dog2.jpg'
 
 function Slider() {
     return (

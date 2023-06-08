@@ -4,8 +4,8 @@ import CallNow from './CallNow'
 import DogsBreed from './DogsBreed'
 import Banner from './Banner'
 import Record from './Record'
-import Footer from '../Footer/Footer'
-// import ScrollToTop from './ScrollToTop'
+import Footer from '../../Footer/Footer'
+ // import ScrollToTop from './ScrollToTop'
  
 function Home() {
   return (

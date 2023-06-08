@@ -1,9 +1,9 @@
 import './App.css';
 import './Style/Style.css'
 import './Style/Responsive.css'
-import Home from './Components/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header/Header';
+import Home from './Components/LandingPage/Home';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route index element={<Home />} />
+          <Route index element={<Home/>} />
         </Routes>
       </BrowserRouter>
 
