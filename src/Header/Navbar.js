@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, {useState } from 'react'
 import { Link } from 'react-router-dom'
 
 
 function Navbar() {
     const [menuBar, setMenuBar] = useState(false)
 
+  
     const scrollToHome = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         if (menuBar) {
@@ -31,8 +32,7 @@ function Navbar() {
             console.log("false")
         }
     }
-
-    return (
+     return (
         <>
             <div className="container-fluid bg-white sticky-top  border-bottom">
                 <div className="container-lg">

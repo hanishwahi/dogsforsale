@@ -1,5 +1,5 @@
 .navbar-001 a {
-  color: #6a6868;
+  color: #cf18c5;
   font-size: 24px;
   font-weight: 700;
   padding: 0px;
@@ -50,9 +50,13 @@
 .newMenuMain{
   position: relative;
   cursor: pointer;
- }
+  }
 
  .newMenu {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s; 
   position: fixed;
   background: #fff;
   z-index: 20;
