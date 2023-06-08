@@ -7,6 +7,7 @@ import Home from './Components/LandingPage/Home';
 import AboutUs from './Components/AboutUs/AboutUs';
 import BuyDogs from './Components/BuyDogs/BuyDogs';
 import Footer from './Footer/Footer';
+import ScrollToTop from './Components/ScrollToTop'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about-us' element={<AboutUs/>} />
           <Route path='/buy-dogs' element={<BuyDogs/>} />
         </Routes>
+        <ScrollToTop/>
         <Footer/>
       </HashRouter>
 
