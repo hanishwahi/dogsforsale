@@ -30,9 +30,9 @@ function Navbar() {
                                         <li className="nav-item desktop-nav">
                                             <Link onClick={scrollToHome} className="nav-link text-uppercase" to="/buy-dogs">Buy Dogs</Link>
                                         </li>
-                                        <li className="nav-item desktop-nav">
+                                        {/* <li className="nav-item desktop-nav">
                                             <Link className="nav-link text-uppercase" to="/">Photos</Link>
-                                        </li>
+                                        </li> */}
                                         <li className="nav-item desktop-nav">
                                             <Link to="tel:+1 8772244075" className="nav-link text-uppercase">Call Now</Link>
                                         </li>
@@ -77,9 +77,9 @@ function Navbar() {
                                         <li className="nav-item nav-canwa">
                                             <Link onClick={scrollToHome} className="nav-link text-dark text-uppercase" to="/buy-dogs">Buy Dogs</Link>
                                         </li>
-                                        <li className="nav-item nav-canwa">
+                                        {/* <li className="nav-item nav-canwa">
                                             <Link className="nav-link text-dark text-uppercase" to="/">Photos</Link>
-                                        </li>
+                                        </li> */}
                                         <li className="nav-item nav-canwa">
                                             <Link className="nav-link text-dark text-uppercase" to="/">Contact</Link>
                                         </li>

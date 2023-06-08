@@ -115,6 +115,20 @@ i.fa-solid.fa-bars.menu-bar {
 }
 
 /* choose the breed  */
+.card-body{
+  min-height: 100px;
+}
+.card-title{
+  font-size: 17px;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: calc(1% + 1px) !important;
+} 
+.react-multiple-carousel__arrow--right {
+  right: calc(3% + 1px) !important;
+}
+
 .viewMore-button{
   display: flex;
   justify-content: center;

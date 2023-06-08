@@ -1,7 +1,7 @@
 import './App.css';
 import './Style/Style.css'
 import './Style/Responsive.css'
- import { BrowserRouter, Routes, Route } from 'react-router-dom';
+ import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header/Header';
 import Home from './Components/LandingPage/Home';
 import AboutUs from './Components/AboutUs/AboutUs';
@@ -12,7 +12,7 @@ import Footer from './Footer/Footer';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route index element={<Home/>} />
@@ -20,7 +20,7 @@ function App() {
           <Route path='/buy-dogs' element={<BuyDogs/>} />
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </HashRouter>
 
     </>
   );

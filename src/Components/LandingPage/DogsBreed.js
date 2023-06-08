@@ -5,8 +5,6 @@ import Goldenretriever from '../../Images/Golden-Retriever-600x600.jpg';
 import Pug from '../../Images/Pug.jpg';
 import Rottweiler from '../../Images/Rottweiler-600x600.jpg';
 import Beagle from '../../Images/Beagle-600x600.jpg';
- 
-
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Link } from 'react-router-dom';

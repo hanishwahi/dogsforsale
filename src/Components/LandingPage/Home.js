@@ -12,8 +12,9 @@ function Home() {
      <Slider/>
      <CallNow/>
      <DogsBreed/>
-     <Banner/>
      <Record/>
+     <Banner/>
+     
       
      {/* <ScrollToTop/> */}
      </>

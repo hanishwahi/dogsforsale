@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Banner() {
     return (
         <>
-            <div className='container-fluid py-md-5 py-4 position-relative px-0'>
+            <div className='container-fluid pt-md-5 pt-4 position-relative px-0'>
                 <div className='' >
                     <img className='img-fluid px-0' src={Banner1} alt='' />
                 </div>
