@@ -33,6 +33,17 @@
         font-size: 18px;
         font-weight: 700;
     }
+    .carousel-control-next-icon {
+        padding: 6px 6px;
+        background-size: 15px;
+    }
+    .carousel-control-prev-icon {
+        padding: 6px 6px;
+        background-size: 15px;
+    }
+    .aboutUs-Content h1 {
+        font-size: 26px;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:767px) {

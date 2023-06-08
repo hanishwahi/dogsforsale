@@ -25,10 +25,10 @@ function Navbar() {
                                             <Link onClick={scrollToHome} className="nav-link text-uppercase " to="/">Home</Link>
                                         </li>
                                         <li className="nav-item desktop-nav">
-                                            <Link className="nav-link text-uppercase" to="/">About Us</Link>
+                                            <Link onClick={scrollToHome} className="nav-link text-uppercase" to="/about-us">About Us</Link>
                                         </li>
                                         <li className="nav-item desktop-nav">
-                                            <Link className="nav-link text-uppercase" to="/">Buy Dogs</Link>
+                                            <Link onClick={scrollToHome} className="nav-link text-uppercase" to="/buy-dogs">Buy Dogs</Link>
                                         </li>
                                         <li className="nav-item desktop-nav">
                                             <Link className="nav-link text-uppercase" to="/">Photos</Link>
@@ -72,10 +72,10 @@ function Navbar() {
                                             <Link onClick={scrollToHome} className="nav-link text-dark text-uppercase" aria-current="page" to="/">Home</Link>
                                         </li>
                                         <li className="nav-item nav-canwa">
-                                            <Link className="nav-link text-dark text-uppercase" to="/">About Us</Link>
+                                            <Link onClick={scrollToHome} className="nav-link text-dark text-uppercase" to="/about-us">About Us</Link>
                                         </li>
                                         <li className="nav-item nav-canwa">
-                                            <Link className="nav-link text-dark text-uppercase" to="/">Buy Dogs</Link>
+                                            <Link onClick={scrollToHome} className="nav-link text-dark text-uppercase" to="/buy-dogs">Buy Dogs</Link>
                                         </li>
                                         <li className="nav-item nav-canwa">
                                             <Link className="nav-link text-dark text-uppercase" to="/">Photos</Link>
