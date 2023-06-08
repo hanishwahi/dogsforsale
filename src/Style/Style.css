@@ -29,8 +29,8 @@
 }
 
 .nav-canwa a {
-  color: #6a6868 !important;
-  font-weight: 700;
+  color: #000 !important;
+  font-weight: 400;
 }
 
 .navbar {
@@ -62,7 +62,7 @@
   z-index: 20;
   left: 0;
   height: 100%;
-  width: 85%;
+  width: 100%;
   border-bottom: 1px solid #ccc;
 }
 

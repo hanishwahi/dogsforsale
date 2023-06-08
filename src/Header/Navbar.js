@@ -41,7 +41,7 @@ function Navbar() {
                             <div className="offcanvas-body newMenu p-0">
                                 <div className="navbar-001 p-3 row align-items-center">
                                     <div className='col-10'>
-                                        <Link onClick={scrollToHome} to="/" style={{ fontSize: "20px" }}>WT Dog Seller</Link>
+                                        <Link onClick={scrollToHome} to="/" style={{ fontSize: "18px" }}>WT Dog Seller</Link>
                                     </div>
                                     <div className='col-2 h3 mb-0'><i onClick={cross} class="fa-solid fa-xmark"></i></div>
                                 </div>
@@ -64,7 +64,7 @@ function Navbar() {
                                 </div>
                             </div>
                         </div></>}
-                    <div className="row align-items-center py-3">
+                    <div className="row align-items-center py-2">
                         <div className="col-lg-3 col-md-7 col-sm-7 col-10 navbar-001">
                             <Link onClick={scrollToHome} to="/">WT Dog Seller</Link>
                         </div>
