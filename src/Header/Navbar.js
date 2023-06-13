@@ -65,7 +65,7 @@ function Navbar() {
                             </div>
                         </div></>}
                     <div className="row align-items-center py-2">
-                        <div className="col-lg-3 col-md-7 col-sm-7 col-10 navbar-001">
+                        <div className="col-lg-3 col-md-11 col-sm-11 col-11 navbar-001">
                             <Link onClick={scrollToHome} to="/">WT Dog Seller</Link>
                         </div>
                         <div className="col-lg-8 col-md-1 desk-nav-main">
@@ -99,7 +99,7 @@ function Navbar() {
                             }}></i></Link>
 
                         </div> */}
-                        <div className='col-2 text-end px-0 '>
+                        <div className='col-1 col-sm-1 col-md-1 text-end px-0 '>
                             <button className='btn shadow-none new-menu m-0' onClick={showMe}><i className="fa-solid fa-bars h2 "></i></button>
                         </div>
 

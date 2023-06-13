@@ -10,9 +10,10 @@ import Shihtzu from '../../Images/Shih Tzu.jpg';
 import Siberian from '../../Images/Siberian.jpg';
 import Chihuahua from '../../Images/Chihuahua.jpg';
 import { Link } from 'react-router-dom';
-
+ 
 
 function BuyDogs() {
+ 
     return (
         <>
             <div className='container-fluid py-5 mt-3'>
@@ -152,7 +153,7 @@ function BuyDogs() {
                     <Link to="tel:+1 8772244075" className='btn shadow-none'>Call Now</Link>
                 </div>
             </div>
-           </div>
+           </div>          
         </>
     )
 }
