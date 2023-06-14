@@ -100,7 +100,7 @@ function Navbar() {
 
                         </div> */}
                         <div className='col-1 col-sm-1 col-md-1 text-end px-0 '>
-                            <button className='btn shadow-none new-menu m-0' onClick={showMe}><i className="fa-solid fa-bars h2 "></i></button>
+                            <button className='btn shadow-none new-menu m-0 p-0' onClick={showMe}><i className="fa-solid fa-bars h2 "></i></button>
                         </div>
 
 
