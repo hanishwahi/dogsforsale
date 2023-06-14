@@ -1,5 +1,6 @@
 import React, {useState } from 'react'
 import { Link } from 'react-router-dom'
+import Mainlogo from '../Images/Main-Logo.svg'
 
 
 function Navbar() {
@@ -39,9 +40,11 @@ function Navbar() {
                     {menuBar && <>
                         <div className='newMenuMain'>
                             <div className="offcanvas-body newMenu p-0">
-                                <div className="navbar-001 p-3 row align-items-center">
+                                <div className="navbar-001 px-3 row align-items-center">
                                     <div className='col-10'>
-                                        <Link onClick={scrollToHome} to="/" style={{ fontSize: "18px" }}>WT Dog Seller</Link>
+                                        <Link onClick={scrollToHome} to="/" style={{ fontSize: "18px" }}> 
+                                        <img src={Mainlogo} alt='logo'/>
+                                        </Link>
                                     </div>
                                     <div className='col-2 h3 mb-0'><i onClick={cross} class="fa-solid fa-xmark"></i></div>
                                 </div>
@@ -65,8 +68,10 @@ function Navbar() {
                             </div>
                         </div></>}
                     <div className="row align-items-center py-2">
-                        <div className="col-lg-3 col-md-11 col-sm-11 col-11 navbar-001">
-                            <Link onClick={scrollToHome} to="/">WT Dog Seller</Link>
+                        <div className="col-lg-3 col-md-11 col-sm-11 col-11 navbar-001 px-1">
+                            <Link onClick={scrollToHome} to="/">
+                            <img src={Mainlogo} alt='logo'/>
+                            </Link>
                         </div>
                         <div className="col-lg-8 col-md-1 desk-nav-main">
                             <nav className="navbar navbar-expand-lg navbar-light">
